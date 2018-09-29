@@ -1,0 +1,274 @@
+/*********** all variable *************/
+body {
+  padding: 0px;
+  margin: 0px; }
+
+/************ start navbar css *********************/
+.navbar {
+  border-radius: 0px; }
+
+.navbar form {
+  position: relative; }
+
+.navbar i {
+  position: absolute;
+  right: 20px;
+  color: #cf1414;
+  top: 10px; }
+
+.navbar-inverse .navbar-nav > li > a {
+  color: white; }
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #cf1414; }
+
+/************ end navbar css *********************/
+/*********** start style of main post *************/
+.all-posts .main-post {
+  height: 300px;
+  position: relative;
+  margin-top: 20px; }
+
+.all-posts .main-post1 {
+  position: relative;
+  height: 150px;
+  margin-top: 10px; }
+
+.all-posts .main-post .cover {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.3));
+  padding: 20px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%; }
+
+.all-posts .main-post1 .cover1 {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.3));
+  padding: 5px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  min-width: 100%;
+  min-height: 100%; }
+
+.all-posts ol,
+.all-posts .cover ul {
+  margin-top: 150px;
+  list-style: none;
+  padding: 0px; }
+
+.all-posts .cover1 ul {
+  padding: 0px;
+  margin-top: 16px; }
+
+.all-posts ol a, .all-posts ul a {
+  color: white;
+  font-size: 13px;
+  font-weight: bold; }
+
+.all-posts h4 {
+  color: white; }
+
+.all-posts .main-post img {
+  width: 100%;
+  height: 100%; }
+
+.all-posts .main-post1 img {
+  width: 100%;
+  height: 100%; }
+
+.all-posts .post-categories li {
+  display: inline-block;
+  padding: 7px 5px;
+  text-transform: capitalize; }
+
+.all-posts a.title {
+  color: white; }
+
+.all-posts a.title h4 {
+  font-size: 20px;
+  font-weight: bold; }
+
+.all-posts .block {
+  width: 100%;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 20px; }
+
+/*********** end style of main post *************/
+/******************** egypt news plugin ******************/
+.egypt-news h3 {
+  color: #cf1414;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.chpcs_foo_content img {
+  width: 100%;
+  height: 100%; }
+
+.chpcs_title a {
+  position: absolute;
+  bottom: 30%;
+  font-weight: bold;
+  font-size: 19px;
+  left: 24px;
+  color: white; }
+
+.chpcs_image_carousel .chpcs_prev, .chpcs_image_carousel .chpcs_next {
+  color: white;
+  border-radius: 50%; }
+
+/*
+.caroufredsel_wrapper
+{
+    left: 10px !important;
+}
+#wa_chpc_slider
+{
+    left: 0px !important;
+    overflow: hidden;
+}
+.chpcs_image_carousel
+{
+    padding: 0px;
+    overflow: hidden;
+}
+.chpcs_foo_content
+{
+    padding: 0px;
+    margin: 0px;
+    margin-right: 6px;
+    padding-right: 6px;
+}
+*/
+/************** start setyle of feature ****************/
+.feature h3 {
+  color: #cf1414;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.feature .featured {
+  margin-top: 10px; }
+
+.feature .featured img {
+  width: 100%;
+  height: 250px; }
+
+.feature .featured .cover {
+  padding: 20px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%; }
+
+/**************start style of top stories **************/
+.top-story .my_wpp_list {
+  border-top: 1px solid #e1d5d5;
+  border-left: 1px solid black;
+  position: relative; }
+
+.top-story li {
+  border-bottom: 1px solid #e1d5d5;
+  padding: 10px 6px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white; }
+
+.top-story li:before {
+  content: '';
+  padding: 15px;
+  position: absolute;
+  left: 10px;
+  background-color: #cf1414;
+  z-index: -1; }
+
+.top-story li a {
+  color: black;
+  font-size: 20px;
+  font-weight: bold; }
+
+/************** start sigle page ***********************/
+.single-post .main-post img {
+  width: 100%; }
+
+.single-post .comment-num {
+  padding: 20px 20px;
+  background-color: #EEE;
+  border-radius: 6px;
+  border: 1px solid #CCC;
+  color: #868080; }
+
+.single-post .main-post {
+  padding: 20px 20px;
+  background-color: #EEE;
+  border-radius: 6px;
+  border: 1px solid #CCC;
+  color: #868080;
+  margin-bottom: 10px; }
+
+.single-post .all-comments {
+  padding: 20px 20px;
+  background-color: #EEE;
+  border-radius: 6px;
+  border: 1px solid #CCC;
+  color: #868080;
+  margin-top: 10px; }
+
+.single-post .all-comments label {
+  display: block; }
+
+.single-post .all-comments li {
+  list-style: none; }
+
+.single-post .all-comments textarea {
+  border-radius: 6px; }
+
+/************** end sigle page ***********************/
+/************** start author page ********************/
+.author_block img {
+  width: 100%; }
+
+.author_block {
+  padding: 10px;
+  background-color: #EEE;
+  display: inline-block;
+  width: 100%;
+  border: 1px solid #CCC;
+  margin-bottom: 10px; }
+
+.author-posts {
+  padding: 20px 20px;
+  background-color: #EEE;
+  border-radius: 6px;
+  border: 1px solid #CCC;
+  color: #868080;
+  margin-bottom: 10px; }
+
+/************** end author page ********************/
+/*********** start style of footer section **************/
+.footer {
+  padding: 10px;
+  background-color: #101010;
+  color: white;
+  margin-top: 20px; }
+
+hr {
+  border-color: #101010; }
+
+ul li {
+  list-style: none; }
+
+hr.border {
+  border: 4px solid black;
+  background-color: black; }
+
+@media (max-width: 990px) {
+  .all-posts .main-post1 {
+    height: 300px; }
+
+  .navbar i {
+    top: 20px; } }
+
+/*# sourceMappingURL=style.css.map */
